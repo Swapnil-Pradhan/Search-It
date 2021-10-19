@@ -1,43 +1,43 @@
 {
-  "background_color": "#2b0029",
-  "description": "A 3in1 app, Search It brings you 3 major things: Search Engine, Browser, Text to Image Generator. And a small feature, Popular Sites, in this you can go to top 10 popular websites of India through only one app.",
-  "display": "fullscreen",
-  "name": "Search It, search anything in your mind...",
-  "orientation": "portrait",
-  "short_name": "Search It",
-  "start_url": "SearchIt.html",
-  "theme_color": "#0d9a94",
-  "categories": [
-    "utilities"
-  ],
-  "screenshots": [
-    {
-      "src": "All.jpeg",
-      "sizes": "800x1280",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "Search.jpeg",
-      "sizes": "800x1280",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "QRCode.jpeg",
-      "sizes": "800x1280",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "Browser.jpeg",
-      "sizes": "800x1280",
-      "type": "image/jpeg"
-    }
-  ],
-  "icons": [
-    {
-      "src": "SearchIt.png",
-      "type": "image/png",
-      "sizes": "1536x1536",
-      "purpose": "any maskable"
-    }
-  ]
+"background_color": "#2b0029",
+"description": "A 3in1 app, Search It brings you 3 major things: Search Engine, Browser, Text to Image Generator. And a small feature, Popular Sites, in this you can go to top 10 popular websites of India through only one app.",
+"display": "fullscreen",
+"name": "Search It, search anything in your mind...",
+"orientation": "portrait",
+"short_name": "Search It",
+"start_url": "SearchIt.html",
+"theme_color": "#0d9a94",
+"categories": [
+"utilities"
+],
+"screenshots": [
+{
+"src": "All.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "Search.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "QRCode.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "Browser.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+}
+],
+"icons": [
+{
+"src": "SearchIt.png",
+"type": "image/png",
+"sizes": "1536x1536",
+"purpose": "any maskable"
+}
+]
 }
