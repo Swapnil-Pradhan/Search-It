@@ -6,7 +6,7 @@
 "short_name": "Search It",
 "start_url": "SearchIt.html",
 "theme_color": "#0d9a94",
-"scope": "/",
+"orientation": "potrait"
 "categories": [
 "utilities"
 ],
