@@ -316,3 +316,9 @@ setTimeout(()=>{
 navigator.vibrate(50);
 },99)
 }
+
+var acceleration = new Accelerometer({frequency: 60});
+acceleration.start();
+acceleration.addEventListener('reading',()=>{
+window.scrollBy(acceleration.x/2, 0);
+});
