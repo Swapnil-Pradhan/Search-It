@@ -1,5 +1,5 @@
 var update = document.getElementById("update")
-if(update.innerHTML!=3.1){
+if(update.innerHTML!=2.1){
 document.getElementById("updatebg").style.display="flex";
 document.getElementById("updatebg").style.opacity="1";
 document.getElementById("version").style.innerHTML+=")"
