@@ -3,10 +3,13 @@ navigator.serviceWorker.register('Cache.js')
 }
 
 let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e)=>{
+window.addEventListener('beforeinstallprompt', (e) =>{
 e.preventDefault();
-deferredPrompt=e;
-showInstallPromotion();
+deferredPrompt = e;
+deferredPrompt.prompt();
+deferredPrompt.userChoice.then((choiceResult) => {
+deferredPrompt = null;
+});
 });
 
 function m(){
