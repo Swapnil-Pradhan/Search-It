@@ -310,3 +310,9 @@ acceleration.start();
 acceleration.addEventListener('reading',()=>{
 window.scrollBy(acceleration.x/2, 0);
 });
+
+function uptodate(){
+var Update = document.createElement("script");
+Update.src = "Update.js";
+document.getElementsByTagName("head")[0].appendChild(Update);
+}
