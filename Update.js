@@ -1,5 +1,5 @@
 var update = document.getElementById("update")
-if(update.innerHTML!=2.2){
+if(update.innerHTML<9.89){
 document.getElementById("updatebg").style.display="flex";
 document.getElementById("updatebg").style.opacity="1";
 document.getElementById("version").style.innerHTML+=")"
