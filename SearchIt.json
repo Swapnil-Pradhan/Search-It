@@ -40,4 +40,42 @@
 "purpose": "any maskable"
 }
 ]
+"shortcuts": [
+{
+"name": "Search", 
+"description": "Search anything you want.",
+"url": "javascript:c()",
+"icons": [
+{
+"src": "SearchIt.png",
+"type": "image/png",
+"purpose": "any maskable"
+}
+]
+},
+{
+"name": "Browser", 
+"description": "Browse any web page.",
+"url": "javascript:xo()",
+"icons":[
+{
+"src": "SearchIt.png",
+"type": "image/png",
+"purpose": "any maskable"
+}
+]
+},
+{
+"name": "QR Code", 
+"description": "Convert text to image.",
+"url": "javascript:hehe()",
+"icons":[
+{
+"src": "SearchIt.png",
+"type": "image/png",
+"purpose": "any maskable"
+}
+]
+}
+] 
 }
