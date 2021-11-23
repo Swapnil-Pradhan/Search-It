@@ -10,14 +10,12 @@
 var timesloadedvr = document.getElementById("timesloaded");
 var version = eval(localStorage.getItem("Version")-(-1));
 if(localStorage.getItem("Version") !== null){
-console.log("exists");
 document.getElementById("timesloaded").innerHTML=version;
 document.getElementById("versionq").src="Update.js?version="+version;
 localStorage.removeItem("Version");
 localStorage.setItem("Version", eval(timesloadedvr.innerHTML));
 }
 else if(localStorage.getItem("Version") == null){
-alert("dies");
 localStorage.setItem("Version", "2");
 document.getElementById("timesloaded").innerHTML=version;
 document.getElementById("versionq").src="Update.js?version="+version;
