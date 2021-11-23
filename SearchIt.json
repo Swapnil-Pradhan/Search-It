@@ -57,7 +57,7 @@
 "name": "Browser", 
 "description": "Browse any web page.",
 "url": "SearchIt.html",
-"icons":[
+"icons": [
 {
 "src": "SearchIt.png",
 "type": "image/png",
@@ -69,7 +69,7 @@
 "name": "QR Code", 
 "description": "Convert text to image.",
 "url": "SearchIt.html",
-"icons":[
+"icons": [
 {
 "src": "SearchIt.png",
 "type": "image/png",
