@@ -44,7 +44,7 @@
 {
 "name": "Search", 
 "description": "Search anything you want.",
-"url": "javascript:c()",
+"url": "SearchIt.html",
 "icons": [
 {
 "src": "SearchIt.png",
@@ -56,7 +56,7 @@
 {
 "name": "Browser", 
 "description": "Browse any web page.",
-"url": "javascript:xo()",
+"url": "SearchIt.html",
 "icons":[
 {
 "src": "SearchIt.png",
@@ -68,7 +68,7 @@
 {
 "name": "QR Code", 
 "description": "Convert text to image.",
-"url": "javascript:hehe()",
+"url": "SearchIt.html",
 "icons":[
 {
 "src": "SearchIt.png",
